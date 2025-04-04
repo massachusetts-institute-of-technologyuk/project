@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="C:/Users/diljo/OneDrive/Desktop/EdufordCode/images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>     
+            <p>Massachusetts Institute of Technology (MIT) – A Hub of Innovation
+                The Massachusetts Institute of Technology (MIT) is one of the world’s most prestigious institutions, known for its cutting-edge research, technological breakthroughs, and academic excellence. Founded in 1861 in Cambridge, Massachusetts, MIT has played a crucial role in shaping science, engineering, and entrepreneurship.
+                
+                Why MIT Stands Out?
+                🔬 Pioneering Research – From AI and robotics to space exploration and biotech, MIT leads the way in innovation.
+                📚 Top-Tier Academics – Home to world-renowned programs in engineering, computer science, business, and more.
+                💡 Entrepreneurial Spirit – MIT startups have generated thousands of successful companies worldwide.
+                🌍 Global Impact – Alumni and researchers have contributed to groundbreaking discoveries that change the world.
+                🏆 Nobel Laureates & Innovators – Many MIT faculty and graduates have received prestigious awards, including 100+ Nobel Prizes.
+                
+                MIT’s Motto: "Mens et Manus" (Mind and Hand)
+                This philosophy reflects MIT’s commitment to both theoretical knowledge and practical application, making it a hub for problem-solvers and innovators.
+                
+                From self-driving cars to space missions, MIT continues to push the boundaries of what’s possible. .</p>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="C:/Users/diljo/OneDrive/Desktop/EdufordCode/images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The Massachusetts Institute of Technology (MIT) is a world-renowned hub for technology, science, and innovation. Founded in 1861, MIT pioneers cutting-edge research, breakthrough inventions, and entrepreneurial success. With a spirit of "Mind and Hand" (Mens et Manus), MIT turns bold ideas into reality—shaping the future, one discovery at a time. </p>
+    
+        
+    </div>
+    <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="footer-link"><p>made by Sachneet Kaur</p></a>
+</section>   
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
